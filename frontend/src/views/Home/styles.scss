@@ -1,0 +1,14 @@
+@use "../../utils/globals.scss" as *;
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 86vw;
+    height: 94vh;
+    overflow: auto;
+
+    margin: 0 0 3vh 7vw;
+}

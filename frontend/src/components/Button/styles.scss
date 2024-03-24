@@ -1,0 +1,31 @@
+@use "../../utils/globals.scss" as *;
+
+.Button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 15rem;
+    height: 3rem;
+
+    border-radius: 1.1rem;
+    border: none;
+    background: rgb(6, 53, 42, 0.8);
+
+    color: $primaryText;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.Button1:hover {
+    filter: brightness(0.84);
+    border: .1rem solid rgb(29, 29, 29);
+    box-shadow: 0rem 0rem .5rem rgb(29, 29, 29);
+    cursor: pointer;
+}
